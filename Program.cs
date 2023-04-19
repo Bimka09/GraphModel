@@ -24,14 +24,13 @@ graph.AddEdge(v3, v4, 2);
 graph.AddEdge(v3, v5, 1);
 graph.AddEdge(v4, v5, 3);
 
-//graph.AddEdge(v5, v4);
 
 //var matrix = graph.GetMatrix();
 //var vector = graph.GetVector();
 //var components = graph.Kosaraju();
 //var sortedVertexes = graph.DemukronSort();
 //var edgesKruskal = graph.Kruskal();
-var asaa = graph.Dijkstra();
+var shortestPath = graph.Dijkstra();
 
 
 
